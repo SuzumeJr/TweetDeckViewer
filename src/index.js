@@ -11,7 +11,7 @@ function createWindow()
 	// メインウインド生成
 	mainWindow = new BrowserWindow({
 		width: config.get('window.width', 800),
-		height: config.get('window.height', 400),
+		height: config.get('window.height', 600),
 		x: config.get('window.left', 0),
 		y: config.get('window.top', 0),		
 		alwaysOnTop: true,
@@ -58,10 +58,7 @@ function createWindow()
 	mainWindow.loadURL('https://tweetdeck.com/');
 	
 	// 開発ツールを有効化
-	// if(app.isPackaged)
-	// {
-	// 	mainWindow.webContents.openDevTools();
-	// }
+	// mainWindow.webContents.openDevTools();
 }
 
 //全てのウインドが閉じられた場合
