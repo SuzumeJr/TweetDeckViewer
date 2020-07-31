@@ -1,22 +1,22 @@
 {
 	"name": "TweetDeckViewer",
 	"version": "1.0.0",
-	"description": "",
+	"description": "TeewDeckViewer",
 	"main": "./src/index.js",
 	"scripts": {
 		"start": "electron .",
-		"test": "echo \"Error: no test specified\" && exit 1",
-		"release_win": "node build/build-win.js",
-		"release_mac": "node build/build-mac.js"
+		"release": "node ./build/release.js",
+		"build_icon": "electron-icon-builder --input=./icons/TweetDeckViewerIcon.png --output=./build"
 	},
-	"author": "",
-	"license": "ISC",
+	"author": "SuzumeJr",
+	"license": "MIT",
 	"devDependencies": {
 		"electron": "^9.1.1",
 		"electron-builder": "^22.8.0",
+		"electron-icon-builder": "^1.0.2",
 		"electron-store": "^6.0.0"
 	},
 	"dependencies": {
 		"electron-store": "^6.0.0"
-	}	
+	}
 }

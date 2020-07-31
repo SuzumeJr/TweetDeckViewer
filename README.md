@@ -28,13 +28,13 @@ Just start the app.
 
 ### Build for Mac
 
-1. Run `npm run release_mac`
+1. Run `npm run release`
 2. In `./dist/mac`, you can find `TweetDeckViewwer.app`
 3. Double click `TweetDeckViewer.app` and start the app
 
 ### Build for Windows
 
-1. Run `npm run release_win`
+1. Run `npm run release`
 
 2. In `./dist/`, you can find `TweetDeckViewer Setup.exe`
 
